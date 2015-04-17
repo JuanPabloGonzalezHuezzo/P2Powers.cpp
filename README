@@ -1,0 +1,21 @@
+# P2Powers.cpp
+//Juan Pablo González Huezzo / A01224902
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+	long superpower(long a, long b){
+		return pow(a,b);
+	}
+
+
+int main(){
+	int x, y;
+	cout << "You will chose a first number 'a' and elevate to a power 'b'. Insert 'a' : " << endl;
+	cin >> x;
+	cout << "Insert b" << endl;
+	cin>> y;
+	cout << "The number is equal to: " << superpower(x,y) << endl;
+
+return 0;
+}
